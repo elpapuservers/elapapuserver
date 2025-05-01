@@ -1,0 +1,67 @@
+[23:43:28] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[23:43:28] [main/INFO]: Loading 10 mods:
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- java 21
+	- minecraft 1.21
+	- voicechat 1.21.1-2.5.30
+	   |-- fabric-api-base 0.4.42+6573ed8c6a
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd96a
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df3606a
+	   |-- fabric-networking-api-v1 4.2.2+60c3209b6a
+	   \-- fabric-resource-loader-v0 1.3.0+565991296a
+[23:43:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/elapapuserver/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[23:43:28] [main/INFO]: Compatibility level set to JAVA_17
+[23:43:29] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[23:43:35] [main/INFO]: [voicechat] Compatibility version 18
+[23:43:35] [main/INFO]: [voicechat] Loading plugins
+[23:43:35] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[23:43:35] [main/INFO]: [voicechat] Initializing plugins
+[23:43:35] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[23:43:35] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:43:39] [main/INFO]: Loaded 1310 recipes
+[23:43:39] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[23:43:39] [main/INFO]: Loaded 1635 advancements
+[23:43:40] [Server thread/INFO]: Starting minecraft server version 1.21
+[23:43:40] [Server thread/INFO]: Loading properties
+[23:43:40] [Server thread/INFO]: Default game type: SURVIVAL
+[23:43:40] [Server thread/INFO]: Generating keypair
+[23:43:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:43:40] [Server thread/INFO]: Using epoll channel type
+[23:43:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:43:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:43:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:43:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:43:40] [Server thread/INFO]: Preparing level "world"
+[23:43:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:43:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:43:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:43:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:43:48] [Server thread/INFO]: Time elapsed: 1597 ms
+[23:43:48] [Server thread/INFO]: Done (8.535s)! For help, type "help"
+[23:43:48] [Server thread/ERROR]: Couldn't load server icon
+java.lang.IllegalStateException: Must be 64 pixels wide
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512) ~[guava-32.1.2-jre.jar:?]
+	at net.minecraft.server.MinecraftServer.method_49387(MinecraftServer.java:874) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.flatMap(Optional.java:289) ~[?:?]
+	at net.minecraft.server.MinecraftServer.method_49384(MinecraftServer.java:871) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:667) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[23:43:48] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[23:43:48] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[23:45:41] [Server thread/INFO]: Disconnecting Ulizard (/127.229.195.19:47749): You are not white-listed on this server!
+[23:45:41] [Server thread/INFO]: Ulizard (/127.229.195.19:47749) lost connection: You are not white-listed on this server!
+[23:45:41] [Server thread/WARN]: handleDisconnection() called twice
+[23:45:52] [Server thread/INFO]: Stopping the server
+[23:45:53] [Server thread/INFO]: Stopping server
+[23:45:53] [Server thread/INFO]: Saving players
+[23:45:53] [Server thread/INFO]: Saving worlds
+[23:45:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:45:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:45:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:45:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:45:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:45:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:45:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
